@@ -19,6 +19,7 @@
   padding: 50px;
   width: 900px;
   border-radius: 10px;
+  position: relative;
 }
 .Profile-img {
   width: 150px;
@@ -70,4 +71,23 @@
   border: 2px solid #8749fd;
   padding: 10px 30px;
   margin-right: 20px;
+  font-size: 12px;
+}
+.links a img {
+  width: 25px;
+  margin-right: 10px;
+}
+.links .message {
+  background: #fff;
+  color: #8749fd;
+}
+.share {
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  background: #f4eeff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
 }
